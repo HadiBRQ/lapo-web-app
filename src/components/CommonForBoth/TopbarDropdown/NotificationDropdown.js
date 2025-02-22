@@ -60,7 +60,7 @@ const NotificationDropdown = props => {
                   <h6 className="mt-0 mb-1">Hadi Ibrahim (Frontend Developer)</h6>
                   <div className="font-size-12 text-muted">
                     <p className="mb-1">
-                      {props.t("Hadi is a Frontend Developer, Frontend Dev is more than meets the eye!") +
+                      {props.t("Hadi is a Frontend Developer. Frontend Dev is more than meets the eye!") +
                         "."}
                     </p>
                     <p className="mb-0">
@@ -84,7 +84,7 @@ const NotificationDropdown = props => {
                   <div className="font-size-12 text-muted">
                     <p className="mb-1">
                       {props.t(
-                        "This LAPO Web App is just a Frontend Based Website Project without a Backend API attached to it"
+                        "This LAPO Web App is just a Frontend Based Website Project without a Backend API attached to it or supplying it with Data or Information"
                       ) + "."}
                     </p>
                     <p className="mb-0">
