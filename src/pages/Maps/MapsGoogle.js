@@ -177,7 +177,7 @@ export default connect(
   {}
 )(
   GoogleApiWrapper({
-    apiKey: "AIzaSyAbvyBxmMbFhrzP9Z8moyYr6dCr-pzjhBE",
+   
     LoadingContainer: LoadingContainer,
     v: "3",
   })(MapsGoogle)
