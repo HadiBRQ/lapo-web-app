@@ -3,6 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import { layoutTypes } from "./constants/layout";
+import { Navigate } from 'react-router-dom';
 // Import Routes all
 import { authProtectedRoutes, publicRoutes } from "./routes";
 
