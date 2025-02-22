@@ -54,6 +54,7 @@ const Header = props => {
     var body = document.body;
     if (window.screen.width <= 998) {
       body.classList.toggle("sidebar-enable");
+      // body.classList.toggle("vertical-collpsed");
     } else {
       body.classList.toggle("vertical-collpsed");
       body.classList.toggle("sidebar-enable");
