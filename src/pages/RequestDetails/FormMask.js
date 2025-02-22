@@ -148,7 +148,7 @@ const FormMask = () => {
                 <div className="d-flex gap-3" style={{ marginBottom: 20, }}>
                   <Button
                     className="btn align-items-center"
-                    style={{ backgroundColor: "#344054", borderColor: "#344054" }}
+                    style={{ backgroundColor: "#344054", borderColor: "#344054", fontSize: 11, }}
                     onClick={() => handleButtonClick("download", "Downloaded for Production", "Successful", "Production file has been downloaded.")}
                     disabled={buttonStates.download}
                   >
@@ -158,7 +158,7 @@ const FormMask = () => {
 
                   <Button
                     className="btn align-items-center"
-                    style={{ backgroundColor: "#B54708", borderColor: "#B54708" }}
+                    style={{ backgroundColor: "#B54708", borderColor: "#B54708", fontSize: 11, }}
                     onClick={() => handleButtonClick("inProgress", "In Progress", "Process Started", "The request has been marked as in progress.")}
                     disabled={buttonStates.inProgress}
                   >
@@ -168,7 +168,7 @@ const FormMask = () => {
 
                   <Button
                     className="btn align-items-center"
-                    style={{ backgroundColor: "#067647", borderColor: "#067647" }}
+                    style={{ backgroundColor: "#067647", borderColor: "#067647",  fontSize: 11, }}
                     onClick={() => handleButtonClick("ready", "Ready", "Ready for Dispatch", "The request has been marked as ready.")}
                     disabled={buttonStates.ready}
                   >
@@ -178,7 +178,7 @@ const FormMask = () => {
 
                   <Button
                     className="btn align-items-center"
-                    style={{ backgroundColor: "#8020E7", borderColor: "#8020E7" }}
+                    style={{ backgroundColor: "#8020E7", borderColor: "#8020E7", fontSize: 11, }}
                     onClick={() => handleButtonClick("sent", "Sent to Dispatch", "Sent to Dispatch", "Card batch successfully sent to dispatch.")}
                     disabled={buttonStates.sent}
                   >
@@ -188,7 +188,7 @@ const FormMask = () => {
 
                   <Button
                     className="btn align-items-center"
-                    style={{ backgroundColor: "#014DAF", borderColor: "#014DAF" }}
+                    style={{ backgroundColor: "#014DAF", borderColor: "#014DAF", fontSize: 11, }}
                     onClick={() => handleButtonClick("acknw", "Acknowledged", "Acknowledged", "Card has successfully been acknowledged.")}
                     disabled={buttonStates.acknw}
                   >
