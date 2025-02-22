@@ -50,16 +50,16 @@ const Header = props => {
     }
   }
 
-  // function tToggle() {
-  //   var body = document.body;
-  //   if (window.screen.width <= 998) {
-  //     body.classList.toggle("sidebar-enable");
-  //   } else {
-  //     body.classList.toggle("vertical-collpsed");
-  //     body.classList.toggle("sidebar-enable");
-  //   }
+  function tToggle() {
+    var body = document.body;
+    if (window.screen.width <= 998) {
+      body.classList.toggle("sidebar-enable");
+    } else {
+      body.classList.toggle("vertical-collpsed");
+      body.classList.toggle("sidebar-enable");
+    }
 
-  // }
+  }
 
   return (
     <React.Fragment>
@@ -67,7 +67,7 @@ const Header = props => {
         <div className="navbar-header">
           <div className="d-flex">
 
-            <div className="navbar-brand-box d-block">
+            <div className="navbar-brand-box d-block d-lg-none">
               <Link to="/" className="logo-dark">
                 <span>
                   <img src={logo} alt="" height="30" />
@@ -81,7 +81,7 @@ const Header = props => {
               </Link>
             </div>
 
-            {/* <button
+            <button
               type="button"
               onClick={() => {
                 tToggle();
@@ -90,7 +90,7 @@ const Header = props => {
               id="vertical-menu-btn"
             >
               <i className="fa fa-fw fa-bars" />
-            </button> */}
+            </button>
 
             
           </div>
