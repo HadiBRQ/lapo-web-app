@@ -166,7 +166,7 @@ const SidebarContent = props => {
           <ul className="metismenu list-unstyled" id="side-menu">
 
             <li style={{ marginTop: 24, marginBottom: 12, }}>
-              <Link to="/dashboardLapo" >
+              <Link to="/dashboard" >
                 <img src={dashLogo} height={17} width={17} style={{ marginRight: 14, }} />
                 <span>{props.t("Dashboard")}</span>
               </Link>
