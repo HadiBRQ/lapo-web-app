@@ -99,13 +99,13 @@ import CryptoKYCApplication from "../pages/Crypto/crypto-kyc-application";
 import CryptoIcoLanding from "../pages/Crypto/CryptoIcoLanding/index";
 
 // Charts
-import ChartApex from "../pages/Charts/Apexcharts";
-import ChartistChart from "../pages/Charts/ChartistChart";
-import ChartjsChart from "../pages/Charts/ChartjsChart";
-import EChart from "../pages/Charts/EChart";
-import SparklineChart from "../pages/Charts/SparklineChart";
-import ChartsKnob from "../pages/Charts/charts-knob";
-import ReCharts from "../pages/Charts/ReCharts";
+// import ChartApex from "../pages/Charts/Apexcharts";
+// import ChartistChart from "../pages/Charts/ChartistChart";
+// import ChartjsChart from "../pages/Charts/ChartjsChart";
+// import EChart from "../pages/Charts/EChart";
+// import SparklineChart from "../pages/Charts/SparklineChart";
+// import ChartsKnob from "../pages/Charts/charts-knob";
+// import ReCharts from "../pages/Charts/ReCharts";
 
 // Maps
 import MapsGoogle from "../pages/Maps/MapsGoogle";
