@@ -67,16 +67,16 @@ const Header = props => {
         <div className="navbar-header">
           <div className="d-flex">
 
-            <div className="navbar-brand-box d-lg-none d-md-block">
+            <div className="navbar-brand-box d-block">
               <Link to="/" className="logo-dark">
                 <span>
-                  <img src={logo} alt="" height="50" />
+                  <img src={logo} alt="" height="30" />
                 </span>
               </Link>
 
               <Link to="/" className="logo logo-light">
                 <span>
-                  <img src={logoLightSvg} alt="" height="50" />
+                  <img src={logoLightSvg} alt="" height="30" />
                 </span>
               </Link>
             </div>
