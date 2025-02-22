@@ -308,13 +308,13 @@ const authProtectedRoutes = [
   { path: "/contacts-profile", component: <ContactsProfile /> },
 
   //Charts
-  { path: "/apex-charts", component: <ChartApex /> },
-  { path: "/chartist-charts", component: <ChartistChart /> },
-  { path: "/chartjs-charts", component: <ChartjsChart /> },
-  { path: "/e-charts", component: <EChart /> },
-  { path: "/sparkline-charts", component: <SparklineChart /> },
-  { path: "/charts-knob", component: <ChartsKnob /> },
-  { path: "/re-charts", component: <ReCharts /> },
+  // { path: "/apex-charts", component: <ChartApex /> },
+  // { path: "/chartist-charts", component: <ChartistChart /> },
+  // { path: "/chartjs-charts", component: <ChartjsChart /> },
+  // { path: "/e-charts", component: <EChart /> },
+  // { path: "/sparkline-charts", component: <SparklineChart /> },
+  // { path: "/charts-knob", component: <ChartsKnob /> },
+  // { path: "/re-charts", component: <ReCharts /> },
 
   // Icons
   { path: "/icons-boxicons", component: <IconBoxicons /> },
