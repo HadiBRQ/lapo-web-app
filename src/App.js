@@ -7,7 +7,7 @@ import { layoutTypes } from "./constants/layout";
 import { authProtectedRoutes, publicRoutes } from "./routes";
 
 // Import all middleware
-import Authmiddleware from "./routes/route";
+// import Authmiddleware from "./routes/route";
 
 // layouts Format
 import VerticalLayout from "./components/VerticalLayout/";
@@ -66,6 +66,8 @@ const App = () => {
   return (
     <React.Fragment>
       <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" />} />
+
         {publicRoutes.map((route, idx) => (
           <Route
             path={route.path}
@@ -83,9 +85,8 @@ const App = () => {
           <Route
             path={route.path}
             element={
-              <Authmiddleware>
                 <Layout>{route.component}</Layout>
-              </Authmiddleware>}
+              }
             key={idx}
             exact={true}
           />
