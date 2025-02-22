@@ -27,7 +27,7 @@ import StarRatings from "react-star-ratings";
 
 // RangeSlider
 import Nouislider from "nouislider-react";
-import "nouislider/distribute/nouislider.css";
+import "nouislider/dist/nouislider.css";
 
 //Import Product Images
 import { productImages } from "assets/images/product";
