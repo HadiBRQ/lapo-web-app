@@ -306,7 +306,7 @@ const DashboardLapo = () => {
                                         <th>Branch</th>
                                         <th>Card Type</th>
                                         <th>Quantity</th>
-                                        <th alignItems="center">Status</th>
+                                        <th style={{ alignItems: "center" }}>Status</th>
                                         <th>Action</th>
                                       </tr>
                                     </thead>
