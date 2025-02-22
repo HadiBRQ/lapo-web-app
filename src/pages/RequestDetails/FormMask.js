@@ -28,7 +28,7 @@ import acknwIcon from "../../assets/icons/check-circle-broken.png";
 
 
 const FormMask = () => {
-  document.title = "Create Profile Form | lapo - Web App";
+  document.title = "Request Details Form | lapo - Web App";
 
   const [buttonStates, setButtonStates] = useState({
     download: false,

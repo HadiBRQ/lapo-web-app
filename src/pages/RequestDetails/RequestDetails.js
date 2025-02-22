@@ -14,7 +14,7 @@ import { Link } from "react-router-dom"
 import FormMask from "./FormMask"
 
 const RequestDetails = () => {
-  document.title = "Create Profile"
+  document.title = "Request Details"
 
   // Modal State
   const [modal, setModal] = useState(false);

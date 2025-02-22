@@ -13,7 +13,7 @@ import trash1Logo from "../../assets/icons/trash-01.png"
 import { Link } from "react-router-dom"
 
 const CardRequest = () => {
-  document.title = "Create Profile"
+  document.title = "Card Request"
 
   // Modal State
   const [modal, setModal] = useState(false);
