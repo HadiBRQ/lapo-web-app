@@ -1,0 +1,21 @@
+.button-container {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
+  
+  /* Hide scrollbar in WebKit browsers */
+  .button-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Disable scrolling on larger screens */
+  @media (min-width: 768px) {
+    .button-container {
+      overflow-x: visible;
+      flex-wrap: wrap;
+    }
+  }
+  
